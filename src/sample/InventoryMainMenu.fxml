@@ -34,25 +34,25 @@
                 <Font size="18.0" />
             </font>
         </Label>
-        <Button id="viewInventoryBtn" layoutX="165.0" layoutY="303.0" mnemonicParsing="false" prefHeight="143.0" prefWidth="132.0">
+        <Button id="viewInventoryBtn" layoutX="165.0" layoutY="303.0" mnemonicParsing="false" prefHeight="143.0" prefWidth="132.0" onAction="#viewInventory">
          <graphic>
-            <ImageView fitHeight="125.0" fitWidth="102.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView id="viewInventoryBtn" fitHeight="125.0" fitWidth="102.0" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@../../resources/list.png" />
                </image>
             </ImageView>
          </graphic>
         </Button>
-        <Button id="addProductBtn" layoutX="407.0" layoutY="303.0" mnemonicParsing="false" prefHeight="143.0" prefWidth="132.0">
+    <Button id="addProductBtn" layoutX="407.0" layoutY="303.0" mnemonicParsing="false" prefHeight="143.0" prefWidth="132.0" onAction="#addProduct">
          <graphic>
-            <ImageView fitHeight="135.0" fitWidth="110.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView id="addProdBtn" fitHeight="135.0" fitWidth="110.0" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@../../resources/add-a-button-icon-64392.png" />
                </image>
             </ImageView>
          </graphic>
         </Button>
-        <Button id="searchProductBtn" layoutX="653.0" layoutY="303.0" mnemonicParsing="false" prefHeight="143.0" prefWidth="132.0">
+        <Button id="searchProductBtn" layoutX="653.0" layoutY="303.0" mnemonicParsing="false" prefHeight="143.0" prefWidth="132.0" onAction="#searchProduct">
          <graphic>
             <ImageView fitHeight="131.0" fitWidth="104.0" pickOnBounds="true" preserveRatio="true">
                <image>
